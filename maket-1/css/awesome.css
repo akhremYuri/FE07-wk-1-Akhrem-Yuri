@@ -1,5 +1,4 @@
 .awesome{
-    text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 19px;
@@ -13,7 +12,8 @@
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
-    color: #212121
+    color: #212121;
+    text-align: center;
 }
 
 .awesome__title::after{
@@ -26,7 +26,8 @@
 
 .awesome__text{
     margin-bottom: 50px;
-    color: #86878B
+    color: #86878B;
+    text-align: center;
 }
 
 .awesome__box{
@@ -37,6 +38,7 @@
 
 .awesome__box-item{
     width: 350px;
+    text-align: center;
 }
 
 .box-item__img{

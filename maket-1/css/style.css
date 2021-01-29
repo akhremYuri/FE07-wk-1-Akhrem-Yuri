@@ -1,10 +1,15 @@
 /* @import url("../css/awesome.css"); */
 @import 'awesome.css';
+@import 'pricing.css';
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
 }
 
 .container{

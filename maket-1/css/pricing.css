@@ -1,7 +1,5 @@
 .pricing{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    line-height: 19px;
+    
     background-color: #E5E5E5;
 }
 
@@ -21,7 +19,7 @@
     content: '';
     display: block;
     width: 64px;
-    border: 2px solid #D98943;
+    border: 1px solid #D98943;
     margin: 40px auto;
 }
 
@@ -35,12 +33,13 @@
    padding-bottom: 100px;
    display: flex;
    justify-content: space-between;
+   margin: 0 -15px;
 }
 
 .pricing__list{
     text-align: center;
     width: 350px;
-   
+    margin: 0 15px;
 }
 
 .pricing__list li{

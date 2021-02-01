@@ -12,6 +12,12 @@ ul{
     list-style: none;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+}
+
 .container{
     max-width: 1170px;
     padding: 0 15px;

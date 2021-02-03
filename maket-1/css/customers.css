@@ -1,0 +1,79 @@
+.customers__title{
+    text-transform: uppercase;
+    padding-top: 100px;
+    margin-bottom: 70px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;
+    text-align: center;
+}
+
+.customers__title::after{
+    content: '';
+    display: block;
+    width: 64px;
+    border: 1px solid #D98943;
+    margin: 40px auto;
+}
+
+.customers__text{
+    margin-bottom: 50px;
+    color: #86878B;
+    text-align: center;
+}
+
+.customers__box{
+    display: flex;
+    margin: 30px -15px 80px;
+}
+
+.customers__box-item{
+    width: 350px;
+    margin: 0 15px;
+}
+
+.customers__box-item-text{
+    color: #86878B;
+    background-color: #E2E2E2;
+    border-radius: 7px;
+    position: relative;
+    text-align: center;
+}
+
+.customers__box-item-text::after{
+    content: '';
+    position: absolute;
+    left: 25px;
+    bottom: -20px;
+    border: 10px solid transparent;
+    border-top: 10px solid #E2E2E2;
+}
+
+.customers__box-item-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin: 20px 30px;
+    margin-left: 60px;
+}
+
+.customer-name{
+    margin-top: 35px;
+    text-align: right;
+    padding-right: 90px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+}
+
+.customer-profession{
+    padding-right: 90px;
+    text-align: right;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+}

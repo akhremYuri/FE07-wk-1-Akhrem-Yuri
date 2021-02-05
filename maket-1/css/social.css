@@ -1,0 +1,33 @@
+.social{
+    background-color: #f8efef;
+}
+
+.social__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social__content{
+    color: #86878B; 
+}
+
+.social__icons .fab,
+.social__icons .fas{
+    font-size: 40px;
+    padding: 10px;
+    
+}
+
+.social__icons .fab
+{
+    margin-right: 15px;   
+}
+
+.social__links{
+    color: #86878B;
+}
+
+.social__links:hover{
+    color: #000;
+}

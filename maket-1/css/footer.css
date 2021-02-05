@@ -1,0 +1,29 @@
+.footer{
+    background-color: #000;
+}
+
+.footer__icons{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__links{
+    color: #fff;
+    margin-right: 10px;
+    padding: 10px; 
+    font-size: 20px;
+}
+
+.footer__links:last-child{
+    margin-right: 0;
+}
+
+.footer__links:hover{
+    transform: scale(1.2);
+}
+
+.footer__text{
+    text-align: center;
+    color: #fff;
+    padding: 10px 0 20px;
+}

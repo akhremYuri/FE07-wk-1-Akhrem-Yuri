@@ -40,6 +40,7 @@
     border-radius: 7px;
     position: relative;
     text-align: center;
+    padding: 10px;
 }
 
 .customers__box-item-text::after{
@@ -51,13 +52,17 @@
     border-top: 10px solid #E2E2E2;
 }
 
+.customer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .customers__box-item-img{
     width: 70px;
     height: 70px;
     border-radius: 50%;
     overflow: hidden;
-    float: left;
-    margin: 20px 30px;
+     margin: 20px 30px;
     margin-left: 60px;
 }
 

@@ -22,11 +22,12 @@
 .header__nav-item-link{
     color:inherit;
     text-decoration: none;
+    transition: all 0.5s;
 }
 
 .header__nav-item-link:hover{
     color: #D98943;
-    text-decoration: underline;
+    border-bottom: 1px solid #D98943;
     transform: scale(1.2);
     display: block;
 }

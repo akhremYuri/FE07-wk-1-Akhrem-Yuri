@@ -40,6 +40,11 @@
     text-align: center;
     width: 350px;
     margin: 0 15px;
+    transition: all 0.5s;
+}
+
+.pricing__list:hover{
+    transform: translate(0, -20px);
 }
 
 .pricing__list li{

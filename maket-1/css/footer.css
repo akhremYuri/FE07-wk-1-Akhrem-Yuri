@@ -5,6 +5,7 @@
 .footer__icons{
     display: flex;
     justify-content: center;
+    padding-top: 10px;
 }
 
 .footer__links{
@@ -12,6 +13,7 @@
     margin-right: 10px;
     padding: 10px; 
     font-size: 20px;
+    transition: all 0.5s;
 }
 
 .footer__links:last-child{

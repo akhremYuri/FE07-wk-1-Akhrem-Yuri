@@ -1,0 +1,69 @@
+.contact__title{
+    text-transform: uppercase;
+    padding-top: 100px;
+    margin-bottom: 70px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000;
+    text-align: center;
+}
+
+.contact__title::after{
+    content: '';
+    display: block;
+    width: 64px;
+    border: 1px solid #D98943;
+    margin: 40px auto;
+}
+
+.contact__flex-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact__text{
+    margin-bottom: 50px;
+    color:#86878B;;
+    text-align: center;
+}
+
+.lbl-contact{
+    color:#86878B;
+}
+
+.contact__input{
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #bdbdbd;
+    /* padding: 32px 0; */
+    margin-top: 5px;
+    margin-bottom: 64px;
+    width: 480px;
+    display: block;
+}
+
+.contact__message{
+    display: block;
+    width: 480px;
+    height: 235px;
+    padding: 10px;
+    border: 0;
+    border-bottom: 1px solid #bdbdbd;
+    outline: none;
+    margin-bottom: 64px;
+}
+
+.contact__button{
+    margin: 50px auto;
+    display: block;
+    border: 0;
+    padding: 11px 32px;
+    background-color: #EC7979;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+}

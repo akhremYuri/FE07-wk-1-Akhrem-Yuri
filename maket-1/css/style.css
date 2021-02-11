@@ -6,6 +6,8 @@
 @import 'header.css';
 @import 'social.css';
 @import 'footer.css';
+@import 'prototypes.css';
+@import 'contact.css';
 
 * {
     margin: 0;

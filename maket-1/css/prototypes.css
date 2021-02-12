@@ -4,12 +4,14 @@
     background-position: center;
     background-size: cover;
     color: #fff;
+    height: 100vh;
 }
 
 .prototypes__flex-box{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100vh;
 }
 
 .prototypes__title{

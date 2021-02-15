@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     margin: 125px 0;
+    flex-wrap: wrap;
 }
 
 .tabs-box{
@@ -63,4 +64,18 @@
     font-size: 15px;
     line-height: 20px;
     font-weight: 600;
+}
+
+@media (max-width: 757px){
+   .tabs__flex-box{
+       margin: 40px 0;
+   } 
+   .tabs-box{
+       flex-direction: row;
+       align-items: center;
+       margin-bottom: 20px;
+   } 
+   .tab-item + .tab-item{
+      margin-left: 15px; 
+   }
 }

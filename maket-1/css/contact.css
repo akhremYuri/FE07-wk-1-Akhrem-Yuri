@@ -22,6 +22,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .contact__text{
@@ -66,4 +67,22 @@
     cursor: pointer;
     font-weight: 600;
     font-size: 15px;
+}
+
+@media (max-width:515px){
+    .input-wrapper{
+        width: 100%;
+    }
+
+    .contact__input{
+        width: 80%;
+    }
+
+    .message-box{
+        width: 100%;
+    }
+
+    .contact__message{
+        width: 80%;
+    }
 }

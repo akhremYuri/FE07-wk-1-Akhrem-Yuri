@@ -4,14 +4,13 @@
     background-position: center;
     background-size: cover;
     color: #fff;
-    height: 100vh;
 }
 
 .prototypes__flex-box{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100vh;
+    flex-wrap: wrap;
 }
 
 .prototypes__title{
@@ -33,7 +32,7 @@
     line-height: 42px;
     font-weight: 400;
     text-transform: uppercase;
-    width: 600px;
+    max-width: 600px;
 }
 
 .prototypes__subtitle::after{
@@ -110,5 +109,15 @@
     border-radius: 0 0 10px 10px;
     font-weight: 600;
     font-size: 15px;
+}
+
+@media (min-width: 1020px){
+    .prototypes{
+       height: 100vh;
+    }
+    
+    .prototypes__flex-box{
+        height: 100vh;
+    }  
 }
 

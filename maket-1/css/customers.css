@@ -27,6 +27,7 @@
 .customers__box{
     display: flex;
     margin: 30px -15px 80px;
+    flex-wrap: wrap;
 }
 
 .customers__box-item{
@@ -81,4 +82,14 @@
     font-size: 14px;
     line-height: 19px;
     color: #86878B;
+}
+
+@media (max-width: 768px){
+    .customers__box{
+        display: block;
+    }
+    .customers__box-item{
+        margin: 0 auto;
+    }
+
 }

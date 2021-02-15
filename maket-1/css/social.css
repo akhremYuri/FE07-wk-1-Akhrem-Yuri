@@ -21,6 +21,10 @@
     padding: 20px 0;
 }
 
+.social__list{
+    display: flex;
+}
+
 .social__icons .fab,
 .social__icons .fas{
     font-size: 40px;

@@ -8,6 +8,7 @@
 @import 'footer.css';
 @import 'prototypes.css';
 @import 'contact.css';
+@import 'tabs.css';
 
 * {
     margin: 0;

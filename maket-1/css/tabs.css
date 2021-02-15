@@ -1,7 +1,7 @@
 .tabs__flex-box{
     display: flex;
     justify-content: space-between;
-    margin: 125px 0;
+    margin: 100px 0;
     flex-wrap: wrap;
 }
 

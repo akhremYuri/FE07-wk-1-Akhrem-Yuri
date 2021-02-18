@@ -76,6 +76,7 @@
 
     .contact__input{
         width: 80%;
+        margin-bottom: 20px;
     }
 
     .message-box{
@@ -84,5 +85,10 @@
 
     .contact__message{
         width: 80%;
+        margin-bottom: 0;
+    }
+
+    .contact__button{
+        margin: 20px auto;
     }
 }

@@ -79,3 +79,13 @@
       margin-left: 15px; 
    }
 }
+
+@media (max-width: 400px){
+    .tabs__image{
+        display: none;
+    }
+    .tab-item{
+        width: 61px;
+        height: 60px;
+    }
+}
